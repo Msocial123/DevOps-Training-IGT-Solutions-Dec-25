@@ -1,7 +1,7 @@
 apiVersion: apps/v1
-kind: Deployment
+kind: ReplicaSet
 metadata:
-  name: ipl-deployment
+  name: ipl-replicaset
   namespace: murali-ns
 spec:
   replicas: 5

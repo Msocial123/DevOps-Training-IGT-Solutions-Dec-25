@@ -24,3 +24,15 @@
    27  kubectl delete ns meesho-ns
    28  kubectl get ns
    29  history
+      4  kubectl get rs -n murali-ns
+    5* 
+    6  kubectl get all -n murali-ns
+    7  vi deployment.yaml
+    8  ls
+    9  kubectl apply -f deployment.yaml 
+   10  kubectl get deployment -n murali-ns
+   11  kubectl get all -n murali-ns
+   12  vi deployment.yaml 
+   13  kubectl apply -f deployment.yaml 
+   14  kubectl get all -n murali-ns
+   15  history
